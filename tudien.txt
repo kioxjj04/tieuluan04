@@ -1,0 +1,195 @@
+Apple|Noun|Qua tao|An apple a day keeps the doctor away.
+Adventurous|Adjective|Thich phieu luu|She has an adventurous spirit and loves to travel.
+Analyze|Verb|Phan tich|We need to analyze the data before making a decision.
+Apartment|Noun|Can ho|Their new apartment has a beautiful view of the city.
+Artist|Noun|Nghe si|The artist painted a stunning landscape.
+Allow|Verb|Cho phep|Please allow me to explain my point of view.
+Animal|Noun|Dong vat|The zoo is home to a variety of animals.
+Access|Noun|Truy cap|You can get access to the information through the website.
+Amazing|Adjective|Ky dieu|The magic show was truly amazing.
+Argument|Noun|Cuoc tranh cai|They had a heated argument about politics.
+Book|Noun|Sach|I love to read a good book on a rainy day.
+Beautiful|Adjective|Dep|The sunset over the ocean was incredibly beautiful.
+Breakfast|Noun|Bua sang|Breakfast is the most important meal of the day.
+Bicycle|Noun|Xe dap|I ride my bicycle to work every day.
+Brave|Adjective|Dung cam|The firefighter's brave actions saved lives.
+Build|Verb|Xay dung|They plan to build a new house next year.
+Benefit|Noun|Loi ich|Regular exercise has many health benefits.
+Bank|Noun|Ngan hang|I need to visit the bank to withdraw some money.
+Bargain|Noun|Su mac ca|The sale was a great bargain; everything was on discount.
+Breathe|Verb|Hit tho|It's essential to breathe fresh air for good health.
+Cat|Noun|Con meo|Their cat loves to play with a ball of yarn.
+Computer|Noun|May tinh|I use my computer for work and entertainment.
+City|Noun|Thanh pho|New York City is known for its vibrant nightlife.
+Camera|Noun|May anh|She captured the beautiful landscape with her camera.
+Chocolate|Noun|So co la|I can't resist the temptation of chocolate.
+Cook|Verb|Nau an|My mom can cook the most delicious meals.
+Cheerful|Adjective|Vui ve|Her cheerful personality brightens up the room.
+Control|Noun|Su kiem soat|Having self-control is important for success.
+Celebrate|Verb|Ky niem|We will celebrate our anniversary next week.
+Conclude|Verb|Ket luan|After much discussion, we were able to conclude the matter.
+Dog|Noun|Con cho|Their dog is always excited to go for a walk.
+Drink|Verb|Uong|It's essential to stay hydrated and drink water.
+Danger|Noun|Nguy hiem|There's a sign warning of danger ahead.
+Decision|Noun|Quyet dinh|Making a decision can be a challenging process.
+Dance|Noun|Su nhay mua|They enjoyed the dance performance at the party.
+Dirty|Adjective|Do ban|The kids came back from the playground all dirty.
+Discover|Verb|Kham pha|He wanted to discover new cultures while traveling.
+Department|Noun|Bo phan|The marketing department is working on a new campaign.
+Describe|Verb|Mo ta|Can you describe the person you saw at the park?
+Deliver|Verb|Giao hang|The courier will deliver the package by tomorrow.
+Elephant|Noun|Con voi|The elephant is the largest land animal.
+Enjoy|Verb|Thich|I enjoy reading books in my free time.
+Education|Noun|Giao duc|Education is the key to a better future.
+Eager|Adjective|Hao huc|The children were eager to open their presents.
+Escape|Verb|Tron thoat|They managed to escape from the locked room.
+Engineer|Noun|Ky su|My cousin is studying to become an engineer.
+Excellent|Adjective|Xuat sac|She received an excellent grade on her project.
+Effort|Noun|No luc|Hard work and effort lead to success.
+Environment|Noun|Moi truong|Protecting the environment is crucial for the planet.
+Estimate|Verb|Uoc tinh|Can you estimate how much this project will cost?
+Friend|Noun|Ban be|I cherish the time I spend with my friends.
+Family|Noun|Gia dinh|Family is important for emotional support.
+Fast|Adjective|Nhanh|The car can go really fast on the highway.
+Food|Noun|Thuc an|The restaurant serves a variety of delicious foods.
+Funny|Adjective|Vui nhon|His jokes always make everyone laugh.
+Fall|Verb|Roi|The leaves fall from the trees in autumn.
+Famous|Adjective|Noi tieng|The actor became famous for his role in the movie.
+Forest|Noun|Rung|The forest is home to many different animals.
+Focus|Noun|Trong tam|The main focus of the meeting is the budget.
+Feeling|Noun|Cam giac|Express your feelings to your loved ones.
+Game|Noun|Tro choi|Playing board games is a fun way to spend time.
+Good|Adjective|Tot|Doing good deeds can make you feel happy.
+Garden|Noun|Vuon|She spends hours working in her beautiful garden.
+Get|Verb|Nhan duoc|I will get the package from the post office.
+Glass|Noun|Coc|He poured some water into the glass.
+Goal|Noun|Muc tieu|Setting a clear goal can help you achieve success.
+Government|Noun|Chinh phu|The government is responsible for making laws.
+Give|Verb|Cho|Please give me a moment to explain.
+Group|Noun|Nhom|The students worked in groups on the project.
+Guess|Verb|Doan|Can you guess the answer to this riddle?
+House|Noun|Ngoi nha|Their house is painted in a lovely shade of blue.
+Happy|Adjective|Hanh phuc|I am happy to see you after so long.
+Hear|Verb|Nghe|I can hear the birds singing outside.
+Health|Noun|Suc khoe|Eating a balanced diet is important for good health.
+Help|Verb|Giup do|Will you help me carry these bags?
+History|Noun|Lich su|Studying history can provide valuable insights.
+Hungry|Adjective|Doi|I'm hungry; let's grab some food.
+Hotel|Noun|Khach san|They booked a room at a luxurious hotel.
+Handle|Verb|Xu ly|She knows how to handle difficult situations.
+Hard|Adjective|Kho|The math exam was hard, but I did my best.
+Ice|Noun|Da|Can I have a drink with ice, please?
+Important|Adjective|Quan trong|The meeting is about an important decision.
+Information|Noun|Thong tin|The internet provides a wealth of information.
+Interesting|Adjective|Thu vi|The documentary was interesting and informative.
+Introduce|Verb|Gioi thieu|Let me introduce you to my friend.
+Idea|Noun|Y tuong|I have a great idea for our next project.
+Ignore|Verb|Lo di|It's not polite to ignore someone's message.
+Illustrate|Verb|Minh hoa|The book is filled with beautifully illustrated pages.
+Image|Noun|Hinh anh|The image of the sunset was breathtaking.
+Identify|Verb|Nhan dang|Can you help me identify this mysterious plant?
+Job|Noun|Cong viec|Finding a job that you love is important.
+Journey|Noun|Hanh trinh|The journey was challenging but rewarding.
+Join|Verb|Tham gia|I want to join the local soccer team.
+Judge|Noun|Tham phan|The judge made a fair decision in the case.
+Just|Adverb|Chi|It's just a small mistake; don't worry about it.
+Jacket|Noun|Ao khoac|You should wear a jacket; it's cold outside.
+Jewelry|Noun|Trang suc|She received a beautiful piece of jewelry as a gift.
+Journalist|Noun|Nha bao|The journalist reported on the breaking news.
+Jealous|Adjective|Ghen ti|He felt jealous when he saw his friend's success.
+Joyful|Adjective|Vui ve|The children's laughter filled the room with a joyful atmosphere.
+Kettle|Noun|Am dun nuoc|She put the kettle on to make some tea.
+Knowledgeable|Adjective|Hieu biet|He is a knowledgeable expert in his field.
+Lively|Adjective|Song dong|The carnival was full of lively music and dancing.
+Laughing|Verb|Cuoi|We spent the evening laughing at funny jokes.
+Luxurious|Adjective|Sang trong|The hotel room was furnished in a luxurious style.
+Mysterious|Adjective|Bi an|The ancient tomb held many mysterious artifacts.
+Motorcycle|Noun|Xe may|He rides his motorcycle to work every day.
+Nourishing|Adjective|Bo duong|A balanced diet is nourishing for your body.
+Organized|Adjective|To chuc|Her workspace is always neat and organized.
+Playful|Adjective|Tinh nghich|The playful puppy chased its tail.
+Rainbow|Noun|Cau vong|After the rain, we saw a beautiful rainbow.
+Relaxing|Adjective|Thu gian|Reading a book can be a relaxing pastime.
+Sunshine|Noun|Anh nang|The sunshine warmed their faces.
+Traveler|Noun|Nguoi du lich|The traveler explored many countries.
+Understanding|Noun|Su hieu biet|Mutual understanding is vital in a relationship.
+Vacation|Noun|Ky nghi|They are planning a vacation to the beach.
+Waterfall|Noun|Thac nuoc|The waterfall is a stunning natural wonder.
+Xenophobia|Noun|Ky thi nguoi ngoai quoc|Xenophobia is harmful to society.
+Yearly|Adjective|Hang nam|They have a yearly tradition of family reunions.
+Zucchini|Noun|Bi ngoi|Zucchini is a versatile vegetable used in cooking.
+Knowledgeable|Adjective|Hieu biet|He is a knowledgeable expert in his field.
+Lively|Adjective|Song dong|The carnival was full of lively music and dancing.
+Laughing|Verb|Cuoi|We spent the evening laughing at funny jokes.
+Luxurious|Adjective|Sang trong|The hotel room was furnished in a luxurious style.
+Mysterious|Adjective|Bi an|The ancient tomb held many mysterious artifacts.
+Motorcycle|Noun|Xe may|He rides his motorcycle to work every day.
+Nourishing|Adjective|Bo duong|A balanced diet is nourishing for your body.
+Organized|Adjective|To chuc|Her workspace is always neat and organized.
+Playful|Adjective|Tinh nghich|The playful puppy chased its tail.
+Rainbow|Noun|Cau vong|After the rain, we saw a beautiful rainbow.
+Relaxing|Adjective|Thu gian|Reading a book can be a relaxing pastime.
+Sunshine|Noun|Anh nang|The sunshine warmed their faces.
+Traveler|Noun|Nguoi du lich|The traveler explored many countries.
+Understanding|Noun|Su hieu biet|Mutual understanding is vital in a relationship.
+Vacation|Noun|Ky nghi|They are planning a vacation to the beach.
+Waterfall|Noun|Thac nuoc|The waterfall is a stunning natural wonder.
+Xenophobia|Noun|Ky thi nguoi ngoai quoc|Xenophobia is harmful to society.
+Yearly|Adjective|Hang nam|They have a yearly tradition of family reunions.
+Zucchini|Noun|Bi ngoi|Zucchini is a versatile vegetable used in cooking.
+Jovial|Adjective|Hoa dong|His jovial personality always brightens the room.
+Kinetic|Adjective|Dong nang|The kinetic energy of the moving car is high.
+Luminous|Adjective|Toa sang|The stars in the night sky are luminous.
+Melodic|Adjective|De nghe|The melodic tune of the song was enchanting.
+Nutritious|Adjective|Dinh duong|Fruits and vegetables are nutritious foods.
+Outgoing|Adjective|Hoat bat|She is an outgoing and sociable person.
+Peaceful|Adjective|Hoa binh|The calm lake creates a peaceful atmosphere.
+Quirky|Adjective|Ky cuc|His quirky sense of humor always makes us laugh.
+Radiant|Adjective|Tuoi sang|Her radiant smile lights up the room.
+Serene|Adjective|Thanh binh|The serene beach was perfect for relaxation.
+Tranquil|Adjective|Thanh lang|The tranquil forest is a place of solitude.
+Unique|Adjective|Doc dao|Each snowflake is unique in its pattern.
+Vibrant|Adjective|Song dong|The vibrant colors of the painting are stunning.
+Wisdom|Noun|Su thong thai|With age comes wisdom and experience.
+Xenophile|Noun|Nguoi yeu thich ngoai quoc|She's a true xenophile and loves traveling.
+Yearning|Noun|Khao khat|His yearning for adventure led him to explore the world.
+Zealot|Noun|Nguoi cuong tin|He's a zealous supporter of the local sports team.
+Jubilant|Adjective|Han hoan|The crowd was jubilant after the team's victory.
+Kingly|Adjective|Giong vua|His kingly appearance commanded respect.
+Loquacious|Adjective|La luot|She is known for her loquacious nature.
+Magnificent|Adjective|Hung vi|The view from the mountain peak was magnificent.
+Opulent|Adjective|Sang trong|The opulent mansion was a sight to behold.
+Quizzical|Adjective|To mo|She gave him a quizzical look as he told his story.
+Resilient|Adjective|Manh me|The resilient plants survived the harsh weather.
+Spectacular|Adjective|Hung vi|The fireworks show was truly spectacular.
+Tenacious|Adjective|Ben bi|He displayed tenacious determination to achieve his goals.
+Unyielding|Adjective|Khong khuat phuc|His unyielding spirit inspired others.
+Vibrant|Adjective|Song dong|The vibrant colors of the painting are stunning.
+Winsome|Adjective|De thuong|Her winsome smile won everyone's hearts.
+Jubilant|Adjective|Han hoan|The crowd was jubilant after the team's victory.
+Kingly|Adjective|Giong vua|His kingly appearance commanded respect.
+Loquacious|Adjective|La luot|She is known for her loquacious nature.
+Magnificent|Adjective|Hung vi|The view from the mountain peak was magnificent.
+Opulent|Adjective|Sang trong|The opulent mansion was a sight to behold.
+Quizzical|Adjective|To mo|She gave him a quizzical look as he told his story.
+Resilient|Adjective|Manh me|The resilient plants survived the harsh weather.
+Spectacular|Adjective|Hung vi|The fireworks show was truly spectacular.
+Tenacious|Adjective|Ben bi|He displayed tenacious determination to achieve his goals.
+Unyielding|Adjective|Khong khuat phuc|His unyielding spirit inspired others.
+Vibrant|Adjective|Song dong|The vibrant colors of the painting are stunning.
+Winsome|Adjective|De thuong|Her winsome smile won everyone's hearts.
+Keen|Adjective|Sac sao|He has a keen interest in astronomy.
+Logical|Adjective|Hop ly|The logical solution to the problem was clear.
+Mellow|Adjective|Em diu|The mellow music set a relaxed atmosphere.
+Nurturing|Adjective|Nuoi duong|The nurturing environment was ideal for children.
+Original|Adjective|Sang tao|Her original artwork is displayed in galleries.
+Passionate|Adjective|Dam me|She is passionate about wildlife conservation.
+Quaint|Adjective|La lam|The village had a quaint charm with its old buildings.
+Radiant|Adjective|Tuoi sang|The bride looked radiant on her wedding day.
+Serene|Adjective|Thanh binh|The serene lake was perfect for a picnic.
+Tranquil|Adjective|Thanh lang|The tranquil garden provided a peaceful escape.
+Unique|Adjective|Doc dao|Her sense of fashion is truly unique.
+Vibrant|Adjective|Song dong|The vibrant street market is full of energy.
+Wisdom|Noun|Su thong thai|Her wisdom comes from years of experience.
+Yearning|Noun|Khao khat|His yearning for knowledge led to endless studying.
+Zealot|Noun|Nguoi cuong tin|He was a zealot for his favorite sports team.

@@ -12,8 +12,6 @@ typedef struct tudien {
 	char viDu[50];		
 }TU;
 
-#endif
-
 struct AVLNode{
 	char balFactor; //Chi so can bang
 	TU Key;
@@ -21,6 +19,9 @@ struct AVLNode{
 	AVLNode* pRight;
 };
 typedef AVLNode* AVLTree;
+
+#endif
+
 
 void rotateRR(AVLTree &T) {
 	AVLNode* T1 = T->pRight;
