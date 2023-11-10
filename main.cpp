@@ -170,6 +170,19 @@ void themTu(AVLTree &T) {
 		printf("Khong du bo nho luu tru.\n");
 }
 
+int suaTu(AVLTree &T, char tuAnh[]) {
+	if(T == NULL)
+		return -1;
+	AVLNode* T1 = timKiem(T, tuAnh);
+	if(T1) {
+		printf("Nhap tu loai: ");gets(T1->Key.loaiTu);
+		printf("Nhap nghia cua tu: ");gets(T1->Key.nghia);
+		printf("Nhap vi du ve tu: ");gets(T1->Key.viDu);
+		return 1;
+	}
+	return 0;
+}
+
 AVLNode* timKiem(AVLTree T, char tuAnh[]) {
 	if(T == NULL) {
 		return NULL;
@@ -297,15 +310,4 @@ int userMenu() {
     return choice;
 }
 
-int suaTu(AVLTree &T, char tuAnh[]) {
-	if(T == NULL)
-		return -1;
-	AVLNode* T1 = timKiem(T, tuAnh);
-	if(T1) {
-		printf("Nhap tu loai: ");gets(T1->Key.loaiTu);
-		printf("Nhap nghia cua tu: ");gets(T1->Key.nghia);
-		printf("Nhap vi du ve tu: ");gets(T1->Key.viDu);
-		return 1;
-	}
-	return 0;
-}
+
