@@ -24,7 +24,7 @@ int main() {
     int choice;
     char pass[10];
     AVLTree t = NULL;
-    char filename[] = "T:/tudien.txt";
+    char filename[] = "tudien.txt";
     docFile(t, filename);
     system("pause");
     do {
@@ -42,6 +42,7 @@ int main() {
         printf("\nNhap mat khau: ");gets(pass);
         fflush(stdin);
         if(isAdmin(pass)) {
+            system("cls");
             admin(t);
         } else {
             printf("Mat khau khong dung.\n");
@@ -49,6 +50,7 @@ int main() {
         }
         break;
     case 2:
+        system("cls");
         user(t);
         break;
     default:
@@ -60,31 +62,35 @@ int main() {
 void admin(AVLTree &T) {
     int choice;
     char tu[50], tuUp[50], tuDel[50];
-    system("cls");
+    
     do {
         choice = adminMenu();
+        fflush(stdin);
         switch (choice)
         {
         case 1:
             themTu(T);
             break;
         case 2:
-            fflush(stdin);
             printf("Nhap tu can sua: ");gets(tuUp);
+            fflush(stdin);
             if(suaTu(T, tuUp))
                 printf("Sua thanh cong.\n");
             else if(suaTu(T, tuUp) == 0)
                 printf("Tu khong ton tai.\n");
             else
                 printf("Mang rong.\n");
+                system("pause");
             break;
         case 3:
             fflush(stdin);
             printf("Nhap tu can xoa: ");gets(tuDel);
             xoaTu(T, tuDel);
+            system("pause");
             break;
         case 4:
             NLR(T);
+            system("pause");
             break;
         case 5: {
             fflush(stdin);
@@ -96,6 +102,7 @@ void admin(AVLTree &T) {
                 printf("%s (%s): %s. \nExample: %s\n", t1->Key.tuAnh, 
                 t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
             }
+            system("pause");
             break;
         }
         default:
@@ -124,6 +131,7 @@ void user(AVLTree &T) {
                 t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
                 addHistorySearch(t1->Key, q);
             }
+            system("pause");
             break;
         }
         case 2: {
@@ -154,7 +162,7 @@ void themTu(AVLTree &T) {
 	printf("Nhap vi du ve tu da them: ");gets(tu.viDu);
 	if(insertNode(T, tu)) {
 		printf("Them thanh cong.\n");
-        ghi1TuMoiVaoFile(tu, "T:/tudien.txt");
+        ghi1TuMoiVaoFile(tu, "tudien.txt");
     }
 	else if(!insertNode(T, tu))
 		printf("Tu nay da co san trong tu dien");
@@ -250,7 +258,7 @@ void showHistorySearch(std::queue<TU> q) {
     }
     printf("Lich su tim kiem:\n");
     while(!q.empty()) {
-        printf("%s\n", q.front().tuAnh);
+        printf("%s (%s): %s. \nExample: %s\n", q.front().tuAnh, q.front().loaiTu, q.front().nghia, q.front().viDu);
         q.pop();
     }
 }
