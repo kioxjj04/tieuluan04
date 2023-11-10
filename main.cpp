@@ -5,12 +5,12 @@
 #include <queue>
 
 
-
 void themTu(AVLTree &T);
 AVLNode* timKiem(AVLTree T, char tuAnh[]);
 int suaTu(AVLTree &T, char tuAnh[]);
 void docFile(AVLTree &T1, char filename[]);
 void ghiFile(AVLTree T, char filename[]);
+void ghi1TuMoiVaoFile(TU tu, char filename[]);
 void xoaTu(AVLTree &T, char tuAnh[]);
 void addHistorySearch(TU tu, std::queue<TU> &q);
 void showHistorySearch(std::queue<TU> q);
@@ -24,7 +24,7 @@ int main() {
     int choice;
     char pass[10];
     AVLTree t = NULL;
-    char filename[] = "tudien.txt";
+    char filename[] = "T:/tudien.txt";
     docFile(t, filename);
     system("pause");
     do {
@@ -59,8 +59,7 @@ int main() {
 
 void admin(AVLTree &T) {
     int choice;
-    char tu[20], tuUp[20], tuDel[20];
-    char c;
+    char tu[50], tuUp[50], tuDel[50];
     system("cls");
     do {
         choice = adminMenu();
@@ -94,7 +93,8 @@ void admin(AVLTree &T) {
             if(t1 == NULL)
                 printf("Tu khong ton tai!!!\n");
             else {
-                printf("%s (%s): %s. \nExample: %s\n", t1->Key.tuAnh, t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
+                printf("%s (%s): %s. \nExample: %s\n", t1->Key.tuAnh, 
+                t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
             }
             break;
         }
@@ -106,7 +106,7 @@ void admin(AVLTree &T) {
 
 void user(AVLTree &T) {
     int choice;
-    char tu[20];
+    char tu[50];
     std::queue<TU> q;
     system("cls");
     do {
@@ -120,7 +120,8 @@ void user(AVLTree &T) {
             if(t1 == NULL)
                 printf("Tu khong ton tai!!!\n");
             else {
-                printf("%s (%s): %s. \nExample: %s\n", t1->Key.tuAnh, t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
+                printf("%s (%s): %s. \nExample: %s\n", t1->Key.tuAnh, 
+                t1->Key.loaiTu, t1->Key.nghia, t1->Key.viDu);
                 addHistorySearch(t1->Key, q);
             }
             break;
@@ -151,8 +152,10 @@ void themTu(AVLTree &T) {
 	printf("Nhap tu loai: ");gets(tu.loaiTu);
 	printf("Nhap nghia cua tu can them: ");gets(tu.nghia);
 	printf("Nhap vi du ve tu da them: ");gets(tu.viDu);
-	if(insertNode(T, tu))
+	if(insertNode(T, tu)) {
 		printf("Them thanh cong.\n");
+        ghi1TuMoiVaoFile(tu, "T:/tudien.txt");
+    }
 	else if(!insertNode(T, tu))
 		printf("Tu nay da co san trong tu dien");
 	else
@@ -165,11 +168,12 @@ AVLNode* timKiem(AVLTree T, char tuAnh[]) {
 	}	
 	if(stricmp(T->Key.tuAnh, tuAnh) == 0)
 		return T;
-	return (stricmp(T->Key.tuAnh, tuAnh) > 0)?timKiem(T->pLeft, tuAnh):timKiem(T->pRight, tuAnh);
+	return (stricmp(T->Key.tuAnh, tuAnh) > 0)?
+    timKiem(T->pLeft, tuAnh):timKiem(T->pRight, tuAnh);
 }
 
 void docFile(AVLTree &T1, char filename[]) {
-	FILE *file = fopen(filename, "r"); // Thay "tudien.txt" b?ng t�n file th?c t?.
+	FILE *file = fopen(filename, "r"); 
 
     if (file == NULL) {
         perror("Khong the mo file.\n");
@@ -179,8 +183,8 @@ void docFile(AVLTree &T1, char filename[]) {
 	TU tu; 
 
     while (fgets(line, sizeof(line), file) != NULL) {
-        // S? d?ng sscanf �? ph�n t�ch d?ng th�nh t?, lo?i t?, ngh?a, v� v� d?.
-        if (sscanf(line, "%49[^|]|%19[^|]|%49[^|]|%99[^\n]", tu.tuAnh, tu.loaiTu, tu.nghia, tu.viDu) == 4) {
+        if (sscanf(line, "%49[^|]|%19[^|]|%49[^|]|%99[^\n]", 
+                tu.tuAnh, tu.loaiTu, tu.nghia, tu.viDu) == 4) {
         	if(insertNode(T1, tu))
         		printf("Them thanh cong tu %s.\n", tu.tuAnh);
         	else
@@ -200,12 +204,24 @@ void ghiFile(AVLTree T, char filename[]) {
 		exit(0);
 	}
 	if(T != NULL) {
-		fprintf(f, "%20s|%10s|%20s|%50s\n", T->Key.tuAnh, T->Key.loaiTu, T->Key.nghia,T->Key.viDu);
-		printf("Ghi thanh cong tu: %s.\n", T->Key.tuAnh);
+		fprintf(f, "%s|%s|%s|%s\n", T->Key.tuAnh, 
+        T->Key.loaiTu, T->Key.nghia,T->Key.viDu);
+		printf("Luu thanh cong tu vao file: %s.\n", T->Key.tuAnh);
 		ghiFile(T->pLeft, filename);
 		ghiFile(T->pRight, filename);
 	}
 	fclose(f);
+}
+
+void ghi1TuMoiVaoFile(TU tu, char filename[]) {
+    FILE *f = fopen(filename, "a");
+    if(f == NULL) {
+        printf("Loi khong the doc file.\n");
+        exit(0);
+    }
+    fprintf(f, "%s|%s|%s|%s\n", tu.tuAnh, tu.loaiTu, tu.nghia,tu.viDu);
+    printf("Luu thanh cong tu vao file: %s.\n", tu.tuAnh);
+    fclose(f);
 }
 
 void xoaTu(AVLTree &T, char tuAnh[]) {
@@ -216,7 +232,7 @@ void xoaTu(AVLTree &T, char tuAnh[]) {
     int tmp = delNode(T, tuAnh);
     if(tmp == 0)
         printf("Tu nay khong co trong tu dien.\n");
-    else
+    else 
         printf("Xoa thanh cong.\n");
 }
 
